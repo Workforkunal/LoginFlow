@@ -9,7 +9,7 @@ import com.app.loginflowapp.data.NavigationItem
 
 class HomeViewModel : ViewModel() {
 
-    val navigationItemsList = listOf<NavigationItem>(
+    val navigationItemsList = listOf(
         NavigationItem(
             title = "Home",
             icon = Icons.Filled.Home,
